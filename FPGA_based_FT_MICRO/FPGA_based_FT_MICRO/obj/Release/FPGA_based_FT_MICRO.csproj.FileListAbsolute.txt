@@ -1,0 +1,5 @@
+F:\MS\Final Project\CODE\source\FPGA_based_FT_MICRO\FPGA_based_FT_MICRO\bin\Release\FPGA_based_FT_MICRO.exe
+F:\MS\Final Project\CODE\source\FPGA_based_FT_MICRO\FPGA_based_FT_MICRO\bin\Release\FPGA_based_FT_MICRO.pdb
+F:\MS\Final Project\CODE\source\FPGA_based_FT_MICRO\FPGA_based_FT_MICRO\obj\Release\ResolveAssemblyReference.cache
+F:\MS\Final Project\CODE\source\FPGA_based_FT_MICRO\FPGA_based_FT_MICRO\obj\Release\FPGA_based_FT_MICRO.exe
+F:\MS\Final Project\CODE\source\FPGA_based_FT_MICRO\FPGA_based_FT_MICRO\obj\Release\FPGA_based_FT_MICRO.pdb
