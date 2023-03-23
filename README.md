@@ -1,6 +1,6 @@
 # HAFTA
 
-This parser/compiler takes an architecture (micro-processesor/controller/etc.) as an input in XDL (Xilinx Design Language) formart and convert it to a Highly Available Fault Tolerant Architecture (HAFTA) again in XDL format. In other words, this tool-chain applies the necessary placement and routing (PnR) greedy algorithms for a given design/architecture to convert it to HAFTA. Although, the parser takes the design in XDL format but it can be extended to take other formats of hardware description languages such as Verilog, VHDL and etc. 
+This parser/compiler takes an architecture (micro-processesor/controller/etc.) as an input in XDL (Xilinx Design Language) formart and convert it to a Highly Available Fault Tolerant Architecture (HAFTA) again in XDL format. In other words, this tool-chain applies the necessary placement and routing (PnR) greedy algorithms for a given design/architecture to convert it to HAFTA. Although, the HAFTA parser takes the design in XDL format but it can be extended to take other formats of hardware description languages such as Verilog, VHDL and etc as an input. 
 
 
 HAFTA Paper: https://ieeexplore.ieee.org/document/6359894
