@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
-namespace FPGA_based_FT_MICRO
+namespace PARSER
 {
     public class multiplexer
     {
@@ -68,7 +68,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         ////////////////////////////////////////////////////////////ReRouting for Main & history flip flop
@@ -96,7 +96,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         ////////////////////////////////////////////////////////////ReRouting for Main & history flip flop
@@ -122,7 +122,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -148,7 +148,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -175,7 +175,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -202,7 +202,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -229,7 +229,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -256,7 +256,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -301,7 +301,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -329,7 +329,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -355,7 +355,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -381,7 +381,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -408,7 +408,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -435,7 +435,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         ////////////////////////////////////////////////////////////ReRouting for Main & history flip flop
@@ -462,7 +462,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop
@@ -489,7 +489,7 @@ namespace FPGA_based_FT_MICRO
                         His_NUM++;
                         int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
                         if (indINT == -1)
-                            Console.Write("salam\n");
+                            Console.Write("not-found\n");
                         int indkama = ALL.IndexOf(",", indINT - 115);
                         string temporary = ALL.Substring(indkama, indINT - indkama);
                         //ReRouting for Main & history flip flop

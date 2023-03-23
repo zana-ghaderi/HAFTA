@@ -1,7 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual C# Express 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPGA_based_FT_MICRO", "FPGA_based_FT_MICRO\FPGA_based_FT_MICRO.csproj", "{50E745C3-C99E-45FA-AA28-A5934BB5EA2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARSER", "FPGA_based_FT_MICRO\PARSER.csproj", "{50E745C3-C99E-45FA-AA28-A5934BB5EA2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF7DD774-F8AE-4587-8D8F-33AFD87DD87C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

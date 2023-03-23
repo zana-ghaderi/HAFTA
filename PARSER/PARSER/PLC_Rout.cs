@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace FPGA_based_FT_MICRO
+namespace PARSER
 {
      public class PLC_Rout
     {
@@ -33,7 +33,6 @@ namespace FPGA_based_FT_MICRO
              int length_of_file = 0;
 
              Slice = XDLslice.ReadLine().ToString();
-        //     Bro = whole.Substring(whole.IndexOf(Slice) + Slice.Length + 2, whole.IndexOf("CT", whole.IndexOf(Slice) + Slice.Length + 3) - whole.IndexOf(Slice) - Slice.Length - 2);
              length_of_file = whole.Length - 40;
              int index_backslash = 0;
              while (XDLslice.EndOfStream == false )
@@ -62,7 +61,6 @@ namespace FPGA_based_FT_MICRO
                      Slice = XDLslice.ReadLine().ToString();                        
                      
              }
-             //Console.Write(FFTOt);
              XDLwrite.Close();
              write.Close();
 

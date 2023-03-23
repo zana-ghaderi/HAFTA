@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
-namespace FPGA_based_FT_MICRO
+namespace PARSER
 {
     class Virtex
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FPGA_based_FT_MICRO
+namespace PARSER
 {
     public class Bmultiplexers
     {
@@ -463,7 +463,7 @@ namespace FPGA_based_FT_MICRO
             His_NUM++;
             int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + BYPB + " ,");
             if (indINT == -1)
-                Console.Write("salam\n");
+                Console.Write("NotFound\n");
             int indkama = ALL.IndexOf(",", indINT - 115);
             string temporary = ALL.Substring(indkama, indINT - indkama);
             Multiplexer2.Routing_function(inst_name, inst_name_H1, temporary, ROW, COL, lOG, BYPB, pin, TYP, Bh, B, Styp, Pin1, His_NUM, Out_H_FF, H_logic, ref ALL);

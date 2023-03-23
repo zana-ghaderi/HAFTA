@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FPGA_based_FT_MICRO
+namespace PARSER
 {
     public class BBmuxes
     {
@@ -299,7 +299,7 @@ namespace FPGA_based_FT_MICRO
             His_NUM++;
             int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + Source + "BEG0 ,");
             if (indINT == -1)
-                Console.Write("salam\n");
+                Console.Write("NotFound\n");
             int indkama = ALL.IndexOf(",", indINT - 115);
             string temporary = ALL.Substring(indkama, indINT - indkama);
             int indkama2 = ALL.IndexOf(",", indINT + 1);
@@ -431,7 +431,7 @@ namespace FPGA_based_FT_MICRO
             His_NUM++;
             int indINT = ALL.IndexOf("pip INT_X" + ROW + "Y" + COL + " LOGIC_OUTS" + lOG + " -> " + Source + "BEG0 ,");
             if (indINT == -1)
-                Console.Write("salam\n");
+                Console.Write("NotFound\n");
             int indkama = ALL.IndexOf(",", indINT - 115);
             string temporary = ALL.Substring(indkama, indINT - indkama);
             int indkama2 = ALL.IndexOf(",", indINT + 1);
